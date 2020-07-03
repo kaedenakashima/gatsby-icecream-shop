@@ -31,7 +31,7 @@ export default class Navbar extends Component {
         return (
             <nav className="navbar navbar-expand-sm bg-light navbar-light">
                 <Link to="/" className="navbar-brand">
-                    <img src={logo} alt="logo" style={{ width: "30px" }} />
+                    <img src={logo} alt="icecream shop" style={{ width: "30px", paddingBottom: "0px", marginBottom: "0px" }} />
                     {/* https://www.iconfinder.com/icons/4053447/cone_cream_dessert_ice_sweet_icon CReative Commons (Attribution 3.0 Unported); https://www.iconfinder.com/weblays */}
                 </Link>
                 <button

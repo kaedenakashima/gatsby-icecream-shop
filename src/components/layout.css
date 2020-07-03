@@ -3,9 +3,12 @@
 :root {
   --mainBrown: #2de1ef1;
   --mainYellow: #ff9e09;
+  --mainMint: #00bcd4;
   --mainGrey: #ece8dc;
   --mainWhite: #fff;
   --mainDark: #222;
+  --mainGrey: #7b7b7d;
+  --mainBlack: #303030;
 }
 
 body {
@@ -25,9 +28,37 @@ h1,h2,h3,h4,h5,h6 {
 .cart-icon {
   cursor: pointer;
   font-size: 1.5rem;
+  margin-top: 10px;
+  color:var(--mainGrey);
 }
 
+.default-background, .about-background {
+  background: linear-gradient(#3F51B5, #8BC34A) 50% 50% / cover;
+  position: relative;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1 !important;
+}
 
+.about-background {
+  background: linear-gradient(#E91E63, #FFC107) 50% 50% / cover!important;
+}
+
+.btn-mint {
+  color: var(--mainMint);
+  border-color: var(--mainMint);
+}
+
+.btn-mint:hover {
+background: var(--mainMint);
+color: var(--mainWhite)!important;
+}
+
+.footer {
+  background: var(--mainBlack);
+}
 
 html {
   font-family: sans-serif;
