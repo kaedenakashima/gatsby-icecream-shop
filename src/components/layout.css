@@ -4,7 +4,8 @@
   --mainBrown: #2de1ef1;
   --mainYellow: #ff9e09;
   --mainMint: #00bcd4;
-  --mainGrey: #ece8dc;
+  /* --mainLightGrey: #ece8dc; */
+  --mainLightGrey: #f8f9fa;
   --mainWhite: #fff;
   --mainDark: #222;
   --mainGrey: #7b7b7d;
@@ -56,8 +57,23 @@ background: var(--mainMint);
 color: var(--mainWhite)!important;
 }
 
+.btn-grey {
+  color: var(--mainGrey);
+  border-color: var(--mainGrey);
+}
+
+.btn-grey:hover {
+background: var(--mainGrey);
+color: var(--mainWhite)!important;
+}
+
 .footer {
   background: var(--mainBlack);
+}
+
+/* .menu */
+.contact {
+  background: var(--mainLightGrey);
 }
 
 html {
